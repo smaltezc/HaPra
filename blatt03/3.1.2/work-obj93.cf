@@ -1,0 +1,7 @@
+v 3
+file . "fa.vhdl" "20211101202900.000" "20211101213130.413":
+  entity fa at 1( 0) + 0 on 23;
+  architecture rtl of fa at 16( 202) + 0 on 24;
+file . "fa_tb.vhdl" "20211101203126.000" "20211101213130.414":
+  entity fa_tb at 1( 0) + 0 on 25;
+  architecture test of fa_tb at 7( 72) + 0 on 26;

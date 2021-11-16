@@ -1,0 +1,97 @@
+$date
+  Mon Nov 01 21:31:30 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # cin $end
+$var reg 1 $ cout $end
+$var reg 1 % sum $end
+$scope module full_adder $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( cin $end
+$var reg 1 ) cout $end
+$var reg 1 * sum $end
+$var reg 1 + wire_1 $end
+$var reg 1 , wire_2 $end
+$var reg 1 - wire_3 $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+#10000000
+1#
+1%
+1(
+1*
+#20000000
+1"
+0#
+1%
+1'
+0(
+1*
+1+
+#30000000
+1#
+1$
+0%
+1(
+1)
+0*
+1,
+#40000000
+1!
+0"
+0#
+0$
+1%
+1&
+0'
+0(
+0)
+1*
+0,
+#50000000
+1#
+1$
+0%
+1(
+1)
+0*
+1,
+#60000000
+1"
+0#
+0%
+1'
+0(
+1)
+0*
+0+
+0,
+1-
+#70000000
+1#
+1%
+1(
+1*
+#80000000
