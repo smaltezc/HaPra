@@ -1,0 +1,4 @@
+v 3
+file . "deneme.vhdl" "20211028160210.000" "20211028180432.986":
+  entity deneme at 1( 0) + 0 on 13;
+  architecture test of deneme at 7( 74) + 0 on 14;

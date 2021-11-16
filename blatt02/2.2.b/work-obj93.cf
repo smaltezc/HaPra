@@ -1,0 +1,43 @@
+v 3
+file . "xorgate_tb.vhdl" "20211027195730.000" "20211027215749.693":
+  entity xorgate_tb at 1( 0) + 0 on 61;
+  architecture test of xorgate_tb at 9( 199) + 0 on 62;
+file . "xorgate.vhdl" "20211027194452.000" "20211027215749.693":
+  entity xorgate at 5( 241) + 0 on 59;
+  architecture rtl of xorgate at 29( 1078) + 0 on 60;
+file . "norgate_tb.vhdl" "20211027194108.000" "20211027214222.388":
+  entity norgate_tb at 1( 0) + 0 on 57;
+  architecture test of norgate_tb at 9( 199) + 0 on 58;
+file . "norgate.vhdl" "20211027194208.000" "20211027214222.388":
+  entity norgate at 5( 241) + 0 on 55;
+  architecture rtl of norgate at 29( 1078) + 0 on 56;
+file . "notgate_tb.vhdl" "20211027192428.000" "20211027212439.523":
+  entity notgate_tb at 1( 0) + 0 on 37;
+  architecture test of notgate_tb at 9( 199) + 0 on 38;
+file . "notgate.vhdl" "20211027191908.000" "20211027212439.523":
+  entity notgate at 5( 241) + 0 on 35;
+  architecture rtl of notgate at 28( 1050) + 0 on 36;
+file . "andgate.vhdl" "20211004114552.000" "20211029000514.800":
+  entity andgate at 5( 237) + 0 on 67;
+  architecture rtl of andgate at 29( 1050) + 0 on 68;
+file . "andgate_tb.vhdl" "20211004114552.000" "20211029000514.801":
+  entity andgate_tb at 1( 0) + 0 on 69;
+  architecture test of andgate_tb at 9( 191) + 0 on 70;
+file . "nandgate.vhdl" "20211027192830.000" "20211027213147.138":
+  entity nandgate at 5( 241) + 0 on 43;
+  architecture rtl of nandgate at 29( 1086) + 0 on 44;
+file . "nandgate_tb.vhdl" "20211027193146.000" "20211027213147.138":
+  entity nandgate_tb at 1( 0) + 0 on 45;
+  architecture test of nandgate_tb at 9( 201) + 0 on 46;
+file . "orgate.vhdl" "20211027193454.000" "20211027213646.434":
+  entity orgate at 5( 241) + 0 on 47;
+  architecture rtl of orgate at 29( 1070) + 0 on 48;
+file . "orgate_tb.vhdl" "20211027193626.000" "20211027213646.434":
+  entity orgate_tb at 1( 0) + 0 on 49;
+  architecture test of orgate_tb at 9( 197) + 0 on 50;
+file . "xnorgate.vhdl" "20211027200050.000" "20211027220257.456":
+  entity xnorgate at 5( 241) + 0 on 63;
+  architecture rtl of xnorgate at 29( 1086) + 0 on 64;
+file . "xnorgate_tb.vhdl" "20211027200240.000" "20211027220257.457":
+  entity xnorgate_tb at 1( 0) + 0 on 65;
+  architecture test of xnorgate_tb at 9( 201) + 0 on 66;
