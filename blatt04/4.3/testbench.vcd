@@ -1,0 +1,37 @@
+$date
+  Thu Nov 11 19:32:03 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 2 ! i[1:0] $end
+$var reg 4 " y[3:0] $end
+$scope module resul $end
+$var reg 2 # i[1:0] $end
+$var reg 4 $ y[3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b00 !
+b0001 "
+b00 #
+b0001 $
+#10000000
+b01 !
+b0010 "
+b01 #
+b0010 $
+#20000000
+b10 !
+b0100 "
+b10 #
+b0100 $
+#30000000
+b11 !
+b1000 "
+b11 #
+b1000 $
+#40000000

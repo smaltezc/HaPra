@@ -1,0 +1,440 @@
+$date
+  Thu Nov 11 18:23:58 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 2 ! sel[1:0] $end
+$var reg 3 " y[2:0] $end
+$scope module multiplex $end
+$var reg 3 # i1[2:0] $end
+$var reg 3 $ i2[2:0] $end
+$var reg 3 % i3[2:0] $end
+$var reg 3 & i4[2:0] $end
+$var reg 2 ' sel[1:0] $end
+$var reg 3 ( y[2:0] $end
+$var reg 2 ) not_sel[1:0] $end
+$var reg 3 * and_out1[2:0] $end
+$var reg 3 + and_out2[2:0] $end
+$var reg 3 , and_out3[2:0] $end
+$var reg 3 - and_out4[2:0] $end
+$var reg 3 . or_out[2:0] $end
+$scope module not_output1 $end
+$var reg 1 / input1 $end
+$var reg 1 0 not_result $end
+$var reg 1 1 not_gate $end
+$upscope $end
+$scope module not_output2 $end
+$var reg 1 2 input1 $end
+$var reg 1 3 not_result $end
+$var reg 1 4 not_gate $end
+$upscope $end
+$scope module and_gate_assignment(0) $end
+$scope module and_result1 $end
+$var reg 1 5 input1 $end
+$var reg 1 6 input2 $end
+$var reg 1 7 input3 $end
+$var reg 1 8 and_result $end
+$var reg 1 9 and_gate $end
+$upscope $end
+$scope module and_result2 $end
+$var reg 1 : input1 $end
+$var reg 1 ; input2 $end
+$var reg 1 < input3 $end
+$var reg 1 = and_result $end
+$var reg 1 > and_gate $end
+$upscope $end
+$scope module and_result3 $end
+$var reg 1 ? input1 $end
+$var reg 1 @ input2 $end
+$var reg 1 A input3 $end
+$var reg 1 B and_result $end
+$var reg 1 C and_gate $end
+$upscope $end
+$scope module and_result4 $end
+$var reg 1 D input1 $end
+$var reg 1 E input2 $end
+$var reg 1 F input3 $end
+$var reg 1 G and_result $end
+$var reg 1 H and_gate $end
+$upscope $end
+$upscope $end
+$scope module and_gate_assignment(1) $end
+$scope module and_result1 $end
+$var reg 1 I input1 $end
+$var reg 1 J input2 $end
+$var reg 1 K input3 $end
+$var reg 1 L and_result $end
+$var reg 1 M and_gate $end
+$upscope $end
+$scope module and_result2 $end
+$var reg 1 N input1 $end
+$var reg 1 O input2 $end
+$var reg 1 P input3 $end
+$var reg 1 Q and_result $end
+$var reg 1 R and_gate $end
+$upscope $end
+$scope module and_result3 $end
+$var reg 1 S input1 $end
+$var reg 1 T input2 $end
+$var reg 1 U input3 $end
+$var reg 1 V and_result $end
+$var reg 1 W and_gate $end
+$upscope $end
+$scope module and_result4 $end
+$var reg 1 X input1 $end
+$var reg 1 Y input2 $end
+$var reg 1 Z input3 $end
+$var reg 1 [ and_result $end
+$var reg 1 \ and_gate $end
+$upscope $end
+$upscope $end
+$scope module and_gate_assignment(2) $end
+$scope module and_result1 $end
+$var reg 1 ] input1 $end
+$var reg 1 ^ input2 $end
+$var reg 1 _ input3 $end
+$var reg 1 ` and_result $end
+$var reg 1 a and_gate $end
+$upscope $end
+$scope module and_result2 $end
+$var reg 1 b input1 $end
+$var reg 1 c input2 $end
+$var reg 1 d input3 $end
+$var reg 1 e and_result $end
+$var reg 1 f and_gate $end
+$upscope $end
+$scope module and_result3 $end
+$var reg 1 g input1 $end
+$var reg 1 h input2 $end
+$var reg 1 i input3 $end
+$var reg 1 j and_result $end
+$var reg 1 k and_gate $end
+$upscope $end
+$scope module and_result4 $end
+$var reg 1 l input1 $end
+$var reg 1 m input2 $end
+$var reg 1 n input3 $end
+$var reg 1 o and_result $end
+$var reg 1 p and_gate $end
+$upscope $end
+$upscope $end
+$scope module or_gate_assignment(0) $end
+$scope module or_result1 $end
+$var reg 1 q input1 $end
+$var reg 1 r input2 $end
+$var reg 1 s input3 $end
+$var reg 1 t input4 $end
+$var reg 1 u or_result $end
+$var reg 1 v or_gate $end
+$upscope $end
+$upscope $end
+$scope module or_gate_assignment(1) $end
+$scope module or_result1 $end
+$var reg 1 w input1 $end
+$var reg 1 x input2 $end
+$var reg 1 y input3 $end
+$var reg 1 z input4 $end
+$var reg 1 { or_result $end
+$var reg 1 | or_gate $end
+$upscope $end
+$upscope $end
+$scope module or_gate_assignment(2) $end
+$scope module or_result1 $end
+$var reg 1 } input1 $end
+$var reg 1 !" input2 $end
+$var reg 1 "" input3 $end
+$var reg 1 #" input4 $end
+$var reg 1 $" or_result $end
+$var reg 1 %" or_gate $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00 !
+b000 "
+b000 #
+b001 $
+b010 %
+b011 &
+b00 '
+b000 (
+b11 )
+b000 *
+b000 +
+b000 ,
+b000 -
+b000 .
+0/
+10
+11
+02
+13
+14
+05
+16
+17
+08
+09
+1:
+0;
+1<
+0=
+0>
+0?
+1@
+0A
+0B
+0C
+1D
+0E
+0F
+0G
+0H
+0I
+1J
+1K
+0L
+0M
+0N
+0O
+1P
+0Q
+0R
+1S
+1T
+0U
+0V
+0W
+1X
+0Y
+0Z
+0[
+0\
+0]
+1^
+1_
+0`
+0a
+0b
+0c
+1d
+0e
+0f
+0g
+1h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0!"
+0""
+0#"
+0$"
+0%"
+#10000000
+b01 !
+b001 "
+b01 '
+b001 (
+b10 )
+b001 +
+b001 .
+1/
+00
+01
+06
+1;
+1=
+1>
+0@
+1E
+0J
+1O
+0T
+1Y
+0^
+1c
+0h
+1m
+1r
+1u
+1v
+#20000000
+b10 !
+b010 "
+b10 '
+b010 (
+b01 )
+b000 +
+b010 ,
+b010 .
+0/
+10
+11
+12
+03
+04
+16
+07
+0;
+0<
+0=
+0>
+1@
+1A
+0E
+1F
+1J
+0K
+0O
+0P
+1T
+1U
+1V
+1W
+0Y
+1Z
+1^
+0_
+0c
+0d
+1h
+1i
+0m
+1n
+0r
+0u
+0v
+1y
+1{
+1|
+#30000000
+b11 !
+b011 "
+b11 '
+b011 (
+b00 )
+b000 ,
+b011 -
+b011 .
+1/
+00
+01
+06
+1;
+0@
+1E
+1G
+1H
+0J
+1O
+0T
+0V
+0W
+1Y
+1[
+1\
+0^
+1c
+0h
+1m
+1t
+1u
+1v
+0y
+1z
+#40000000
+b10 !
+b010 "
+b10 '
+b010 (
+b01 )
+b010 ,
+b000 -
+b010 .
+0/
+10
+11
+16
+0;
+1@
+0E
+0G
+0H
+1J
+0O
+1T
+1V
+1W
+0Y
+0[
+0\
+1^
+0c
+1h
+0m
+0t
+0u
+0v
+1y
+0z
+1{
+1|
+#50000000
+b11 !
+b011 "
+b11 '
+b011 (
+b00 )
+b000 ,
+b011 -
+b011 .
+1/
+00
+01
+06
+1;
+0@
+1E
+1G
+1H
+0J
+1O
+0T
+0V
+0W
+1Y
+1[
+1\
+0^
+1c
+0h
+1m
+1t
+1u
+1v
+0y
+1z
+#60000000
