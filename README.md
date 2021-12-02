@@ -3,6 +3,6 @@
 
 "python script.py example.vhdl example_tb.vhdl testbench.vcd" on CMD.
 
-* ou can also execute the components of a Vhdl file with script.py
+* you can also execute the components of a Vhdl file with script.py
 
 "python script.py nandgate.vhdl example.vhdl example_tb.vhdl testbench.vcd" on CMD.
