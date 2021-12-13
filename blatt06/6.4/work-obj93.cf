@@ -1,0 +1,7 @@
+v 3
+file . "Traffic.vhdl" "20211203204728.000" "20211203225746.608":
+  entity traffic at 1( 0) + 0 on 33;
+  architecture rtl of traffic at 18( 437) + 0 on 34;
+file . "Traffic_tb.vhdl" "20211203203942.000" "20211203225746.608":
+  entity traffic_tb at 1( 0) + 0 on 35;
+  architecture sim of traffic_tb at 8( 113) + 0 on 36;

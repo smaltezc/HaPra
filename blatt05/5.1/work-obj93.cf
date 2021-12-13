@@ -1,0 +1,16 @@
+v 3
+file . "D_Latch_tb.vhdl" "20211124235754.000" "20211125025147.305":
+  entity d_latch_tb at 1( 0) + 0 on 615;
+  architecture testbench of d_latch_tb at 7( 88) + 0 on 616;
+file . "D_Latch.vhdl" "20211125014612.000" "20211125025147.304":
+  entity d_latch at 1( 0) + 0 on 613;
+  architecture behavioral of d_latch at 11( 167) + 0 on 614;
+file . "nandgate.vhdl" "20211122152918.000" "20211124202409.000":
+  entity nandgate at 1( 0) + 0 on 559;
+  architecture rtl of nandgate at 13( 191) + 0 on 560;
+file . "SR_Latch.vhdl" "20211125014816.000" "20211125025147.304":
+  entity sr_latch at 1( 0) + 0 on 611;
+  architecture behavioral of sr_latch at 11( 177) + 0 on 612;
+file . "SR_Latch_tb.vhdl" "20211124190252.000" "20211125025048.621":
+  entity sr_latch_tb at 1( 0) + 0 on 609;
+  architecture testbench of sr_latch_tb at 7( 90) + 0 on 610;

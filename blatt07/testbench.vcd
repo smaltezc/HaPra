@@ -1,0 +1,45 @@
+$date
+  Wed Dec 08 21:03:45 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 4 ! x[3:0] $end
+$var reg 4 " y[3:0] $end
+$var reg 8 # z[7:0] $end
+$scope module optmz_mult_add_shift_1 $end
+$var reg 4 $ x[3:0] $end
+$var reg 4 % y[3:0] $end
+$var reg 8 & z[7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b1000 !
+b0111 "
+b00111000 #
+b1000 $
+b0111 %
+b00111000 &
+#10000000
+b1001 !
+b00111111 #
+b1001 $
+b00111111 &
+#20000000
+b0010 !
+b0011 "
+b00000110 #
+b0010 $
+b0011 %
+b00000110 &
+#30000000
+b0100 !
+b1111 "
+b00111100 #
+b0100 $
+b1111 %
+b00111100 &
+#40000000
