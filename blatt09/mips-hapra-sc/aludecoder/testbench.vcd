@@ -1,0 +1,63 @@
+$date
+  Tue Jan 18 16:35:46 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 6 ! funct[5:0] $end
+$var reg 2 " aluop[1:0] $end
+$var reg 3 # alucontrol[2:0] $end
+$scope module aludec1 $end
+$var reg 6 $ funct[5:0] $end
+$var reg 2 % aluop[1:0] $end
+$var reg 3 & alucontrol[2:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUU !
+b00 "
+b010 #
+bUUUUUU $
+b00 %
+b010 &
+#10000000
+b01 "
+b110 #
+b01 %
+b110 &
+#20000000
+b100000 !
+b11 "
+b010 #
+b100000 $
+b11 %
+b010 &
+#30000000
+b100010 !
+b110 #
+b100010 $
+b110 &
+#40000000
+b100100 !
+b000 #
+b100100 $
+b000 &
+#50000000
+b100101 !
+b001 #
+b100101 $
+b001 &
+#60000000
+b101010 !
+b111 #
+b101010 $
+b111 &
+#70000000
+b111111 !
+b--- #
+b111111 $
+b--- &
+#80000000

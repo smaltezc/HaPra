@@ -1,0 +1,7 @@
+v 3
+file . "alu_tb.vhdl" "20220110162712.000" "20220118161712.377":
+  entity alu_tb at 1( 0) + 0 on 21;
+  architecture testbench of alu_tb at 7( 84) + 0 on 22;
+file . "alu.vhdl" "20210106182214.000" "20220118161712.376":
+  entity alu at 4( 177) + 0 on 19;
+  architecture behavior of alu at 18( 485) + 0 on 20;

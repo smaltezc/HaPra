@@ -1,0 +1,7 @@
+v 3
+file . "mux2.vhdl" "20210106182420.000" "20220118162217.364":
+  entity mux2 at 4( 177) + 0 on 15;
+  architecture behavior of mux2 at 17( 432) + 0 on 16;
+file . "mux2_tb.vhdl" "20220110182044.000" "20220118162217.364":
+  entity mux2_tb at 1( 0) + 0 on 17;
+  architecture testbench of mux2_tb at 7( 86) + 0 on 18;

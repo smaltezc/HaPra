@@ -1,0 +1,40 @@
+v 3
+file . "alu.vhdl" "20210106182214.000" "20220118165508.634":
+  entity alu at 4( 177) + 0 on 869;
+  architecture behavior of alu at 18( 485) + 0 on 870;
+file . "regfile.vhdl" "20210106182318.000" "20220118165508.635":
+  entity regfile at 4( 177) + 0 on 871;
+  architecture behavior of regfile at 21( 590) + 0 on 872;
+file . "adder.vhdl" "20210107115540.000" "20220118165508.635":
+  entity adder at 4( 177) + 0 on 873;
+  architecture behavior of adder at 16( 405) + 0 on 874;
+file . "sl2.vhdl" "20210106182332.000" "20220118165508.635":
+  entity sl2 at 4( 177) + 0 on 875;
+  architecture behavior of sl2 at 14( 336) + 0 on 876;
+file . "signext.vhdl" "20210106182428.000" "20220118165508.636":
+  entity signext at 4( 177) + 0 on 877;
+  architecture behavior of signext at 14( 369) + 0 on 878;
+file . "syncresff.vhdl" "20220110010144.000" "20220118165508.636":
+  entity syncresff at 4( 177) + 0 on 879;
+  architecture behavior of syncresff at 17( 425) + 0 on 880;
+file . "mux2.vhdl" "20210106182420.000" "20220118165508.636":
+  entity mux2 at 4( 177) + 0 on 881;
+  architecture behavior of mux2 at 17( 432) + 0 on 882;
+file . "datapath.vhdl" "20210120142142.000" "20220118165508.637":
+  entity datapath at 4( 177) + 0 on 883;
+  architecture structure of datapath at 27( 773) + 0 on 884;
+file . "aludec.vhdl" "20210106182218.000" "20220118165508.637":
+  entity aludec at 4( 177) + 0 on 887;
+  architecture behavior of aludec at 15( 394) + 0 on 888;
+file . "maindec.vhdl" "20210106182302.000" "20220118165508.637":
+  entity maindec at 4( 177) + 0 on 885;
+  architecture behavior of maindec at 21( 536) + 0 on 886;
+file . "controller.vhdl" "20210119155822.000" "20220118165508.637":
+  entity controller at 4( 177) + 0 on 889;
+  architecture structure of controller at 23( 611) + 0 on 890;
+file . "mips.vhdl" "20220117225818.000" "20220118165508.638":
+  entity mips at 4( 177) + 0 on 891;
+  architecture structure of mips at 20( 573) + 0 on 892;
+file . "mips_tb.vhdl" "20220115180618.000" "20220118165508.638":
+  entity mips_tb at 1( 0) + 0 on 893;
+  architecture testbench of mips_tb at 7( 86) + 0 on 894;

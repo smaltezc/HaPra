@@ -1,0 +1,7 @@
+v 3
+file . "aludec_tb.vhdl" "20220114214116.000" "20220118163546.305":
+  entity aludec_tb at 1( 0) + 0 on 21;
+  architecture testbench of aludec_tb at 7( 90) + 0 on 22;
+file . "aludec.vhdl" "20210106182218.000" "20220118163546.304":
+  entity aludec at 4( 177) + 0 on 19;
+  architecture behavior of aludec at 15( 394) + 0 on 20;

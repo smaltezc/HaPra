@@ -1,0 +1,128 @@
+$date
+  Tue Jan 18 16:37:48 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 6 ! op[5:0] $end
+$var reg 2 " aluop[1:0] $end
+$var reg 1 # memtoreg $end
+$var reg 1 $ memwrite $end
+$var reg 1 % branch $end
+$var reg 1 & alusrc $end
+$var reg 1 ' regdst $end
+$var reg 1 ( regwrite $end
+$var reg 1 ) jump $end
+$scope module maindec1 $end
+$var reg 6 * op[5:0] $end
+$var reg 1 + memtoreg $end
+$var reg 1 , memwrite $end
+$var reg 1 - branch $end
+$var reg 1 . alusrc $end
+$var reg 1 / regdst $end
+$var reg 1 0 regwrite $end
+$var reg 1 1 jump $end
+$var reg 2 2 aluop[1:0] $end
+$var reg 9 3 controls[8:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b000000 !
+b10 "
+0#
+0$
+0%
+0&
+1'
+1(
+0)
+b000000 *
+0+
+0,
+0-
+0.
+1/
+10
+01
+b10 2
+b110000010 3
+#10000000
+b100011 !
+b00 "
+1#
+1&
+0'
+b100011 *
+1+
+1.
+0/
+b00 2
+b101001000 3
+#20000000
+b101011 !
+0#
+1$
+0(
+b101011 *
+0+
+1,
+00
+b001010000 3
+#30000000
+b000100 !
+b01 "
+0$
+1%
+0&
+b000100 *
+0,
+1-
+0.
+b01 2
+b000100001 3
+#40000000
+b001000 !
+b00 "
+0%
+1&
+1(
+b001000 *
+0-
+1.
+10
+b00 2
+b101000000 3
+#50000000
+b000010 !
+0&
+0(
+1)
+b000010 *
+0.
+00
+11
+b000000100 3
+#60000000
+b111111 !
+b-- "
+-#
+-$
+-%
+-&
+-'
+-(
+-)
+b111111 *
+-+
+-,
+--
+-.
+-/
+-0
+-1
+b-- 2
+b--------- 3
+#70000000

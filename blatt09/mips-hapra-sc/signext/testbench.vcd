@@ -1,0 +1,27 @@
+$date
+  Tue Jan 18 16:15:37 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 16 ! a[15:0] $end
+$var reg 32 " aext[31:0] $end
+$scope module signext1 $end
+$var reg 16 # a[15:0] $end
+$var reg 32 $ aext[31:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000000001010000 !
+b00000000000000000000000001010000 "
+b0000000001010000 #
+b00000000000000000000000001010000 $
+#10000000
+b1100000001010000 !
+b11111111111111111100000001010000 "
+b1100000001010000 #
+b11111111111111111100000001010000 $
+#20000000

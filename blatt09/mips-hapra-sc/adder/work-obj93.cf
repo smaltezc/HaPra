@@ -1,0 +1,7 @@
+v 3
+file . "adder.vhdl" "20210107115540.000" "20220118162057.878":
+  entity adder at 4( 177) + 0 on 15;
+  architecture behavior of adder at 16( 405) + 0 on 16;
+file . "adder_tb.vhdl" "20220110175940.000" "20220118162057.878":
+  entity adder_tb at 1( 0) + 0 on 17;
+  architecture testbench of adder_tb at 7( 88) + 0 on 18;

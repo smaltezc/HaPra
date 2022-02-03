@@ -1,0 +1,46 @@
+v 3
+file . "mips_tb.vhdl" "20220118163728.000" "20220118174401.969":
+  entity mips_tb at 1( 0) + 0 on 935;
+  architecture testbench of mips_tb at 7( 86) + 0 on 936;
+file . "mips.vhdl" "20220118163438.000" "20220118174401.968":
+  entity mips at 4( 177) + 0 on 933;
+  architecture structure of mips at 20( 584) + 0 on 934;
+file . "controller.vhdl" "20220118164052.000" "20220118174401.967":
+  entity controller at 4( 177) + 0 on 927;
+  architecture structure of controller at 23( 614) + 0 on 928;
+file . "maindec.vhdl" "20220118164146.000" "20220118174401.967":
+  entity maindec at 4( 177) + 0 on 923;
+  architecture behavior of maindec at 21( 539) + 0 on 924;
+file . "aludec.vhdl" "20210106182218.000" "20220118174401.967":
+  entity aludec at 4( 177) + 0 on 925;
+  architecture behavior of aludec at 15( 394) + 0 on 926;
+file . "datapath.vhdl" "20210120142142.000" "20220118174401.967":
+  entity datapath at 4( 177) + 0 on 921;
+  architecture structure of datapath at 27( 773) + 0 on 922;
+file . "mux2.vhdl" "20210106182420.000" "20220118174401.966":
+  entity mux2 at 4( 177) + 0 on 919;
+  architecture behavior of mux2 at 17( 432) + 0 on 920;
+file . "syncresff.vhdl" "20220110010144.000" "20220118174401.966":
+  entity syncresff at 4( 177) + 0 on 917;
+  architecture behavior of syncresff at 17( 425) + 0 on 918;
+file . "signext.vhdl" "20210106182428.000" "20220118174401.966":
+  entity signext at 4( 177) + 0 on 915;
+  architecture behavior of signext at 14( 369) + 0 on 916;
+file . "sl2.vhdl" "20210106182332.000" "20220118174401.965":
+  entity sl2 at 4( 177) + 0 on 913;
+  architecture behavior of sl2 at 14( 336) + 0 on 914;
+file . "adder.vhdl" "20210107115540.000" "20220118174401.965":
+  entity adder at 4( 177) + 0 on 911;
+  architecture behavior of adder at 16( 405) + 0 on 912;
+file . "regfile.vhdl" "20210106182318.000" "20220118174401.965":
+  entity regfile at 4( 177) + 0 on 909;
+  architecture behavior of regfile at 21( 590) + 0 on 910;
+file . "alu.vhdl" "20210106182214.000" "20220118174401.964":
+  entity alu at 4( 177) + 0 on 907;
+  architecture behavior of alu at 18( 485) + 0 on 908;
+file . "datamem.vhdl" "20220118163408.000" "20220118174401.968":
+  entity datamem at 1( 0) + 0 on 929;
+  architecture behave of datamem at 13( 350) + 0 on 930;
+file . "instructmem.vhdl" "20220118163200.000" "20220118174401.968":
+  entity instructmem at 1( 0) + 0 on 931;
+  architecture behavioral of instructmem at 11( 236) + 0 on 932;
